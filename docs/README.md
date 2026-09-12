@@ -60,3 +60,8 @@ evals
 9. [pi-session-backend-sqlite-node](09-pi-session-backend-sqlite-node.md) — SQLite 持久化
 10. [pi-coding-agent](10-pi-coding-agent.md) — CLI/SDK、AgentSession、扩展、模式
 11. [pi-evals](11-pi-evals.md) — 行为评测
+12. [agent 事件流分析](12-agent-事件流分析.md) — agent 包内三层事件体系与完整时序
+13. [AgentSession 事件消费](13-coding-agent-AgentSession事件消费.md) — coding-agent 如何消费 Agent 事件（转译/持久化/重试/compaction/TUI）
+14. [agent 关键设计详解](14-agent-关键设计详解.md) — 消息契约、截断保护、并行工具、proxy 重建、harness 事件总线
+15. [AgentSession 关键设计详解](15-coding-agent-关键设计详解.md) — 单枢纽转译、事件副作用编排、run 边界、错误恢复分层、UI 状态机
+16. [架构与链路调用图](16-架构与链路调用图.md) — 包依赖/分层/交互链路/事件分发/run 决策/远程会话 Mermaid 图
